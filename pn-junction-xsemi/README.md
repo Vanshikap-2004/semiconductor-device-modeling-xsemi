@@ -32,6 +32,11 @@ depletion width while avoiding degenerate carrier conditions.
 - Ideal diode current derivation and I–V prediction
 - Temperature and doping variation analysis
 
+## Theory Reference
+Detailed analytical derivations for carrier statistics, electrostatics, and current
+transport are provided in the [theory/derivations.pdf](theory/derivations.pdf) file.
+
+
 ## Numerical Results
 
 Using the derived carrier statistics and electrostatic relations, the following
@@ -64,4 +69,6 @@ stability.
 Compared to silicon diodes, the designed junction exhibits higher turn-on voltage,
 lower leakage current, and potentially faster switching behavior due to higher carrier
 mobility.
+
+
 
