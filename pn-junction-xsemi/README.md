@@ -15,6 +15,9 @@ The semiconductor material is characterized by the following base parameters:
 - Electron mobility (μn): 800 cm²/V·s
 - Hole mobility (μp): 400 cm²/V·s
 - Temperature: 300 K
+- Vbi between 0.5 V and 1 V
+- Width less than or equal to 1 um
+- minority carrier concentration non-degenerate
 
 ## Approach
 The device design was carried out by first deriving intrinsic carrier statistics from
@@ -28,6 +31,29 @@ depletion width while avoiding degenerate carrier conditions.
 - Depletion width and electric field estimation
 - Ideal diode current derivation and I–V prediction
 - Temperature and doping variation analysis
+
+## Numerical Results
+
+Using the derived carrier statistics and electrostatic relations, the following
+device parameters were obtained at 300 K:
+
+- Intrinsic carrier concentration (ni): 4194.59 cm⁻³
+- Built-in potential (Vbi): 0.99 V
+- Total depletion width (W): 0.66 μm
+- Depletion width on p-side (xp): 0.33 μm
+- Depletion width on n-side (xn): 0.33 μm
+- Maximum electric field (Emax): 30000 V/cm
+- Saturation current (Is) for 1 mm² area: 1.047 x 10^(-17) A
+
+These results satisfy the design constraints of moderate built-in potential,
+sub-micron depletion width, and non-degenerate carrier concentrations.
+
+## Temperature Dependence
+
+When the temperature is increased to 400 K, the intrinsic carrier concentration
+increases significantly, leading to a reduction in built-in potential and an
+increase in saturation current. This behavior highlights the improved thermal
+stability of wide-bandgap semiconductors compared to silicon.
 
 ## Key Observations
 The wide bandgap of X-Semi leads to a significantly lower intrinsic carrier concentration
